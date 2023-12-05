@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;   
+}
+
+
+@font-face {
+    font-family: "Raleway";
+    src: url("../Fonts/Raleway/Raleway-SemiBold.ttf") format("truetype");
+}
+
+
+@font-face {
+    font-family: "RalewayBold";
+    src: url("../Fonts/Raleway/Raleway-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "RalewayThin";
+    src: url("../Fonts/Raleway/Raleway-Bold.ttf") format("truetype");
+}
+
+.aller .container a{
+    color: #FFFFFF;
+}
+
+.aller ul{
+    display: flex;
+    width: 30%;
+    list-style: none;
+    justify-content: space-between;
+    padding-left: 2%;
+}
+
+.aller ul li{
+    width: 100%;
+    padding-left: 2%;
+}
+
+.aller .container{
+    display: flex;
+    width: 65%;
+    height: 100%;
+    align-items: center;
+}
+
+.aller{
+    background-color: #223266;
+    color: #FFFFFF;
+    font-family: "Marianne",arial,sans-serif;
+    font-size: 1rem;
+    height: 40px;
+}
+
+.header_body{
+    display: flex;
+<<<<<<< HEAD
+    font-size: 1.3vw;
+=======
+    font-size: 3vw;
+>>>>>>> 07ad850121b957993a370f93288d057cb9322e7f
+    height: 100px;
+    font-family: "RalewayBold", sans-serif;
+    align-items: center;
+    color: #223266;
+}
+<<<<<<< HEAD
+
+.header_body a{
+    width: 30%;
+    z-index: 1000;
+    position: absolute;
+}
+
+.header_body h1{
+    margin: 0 auto;
+=======
+.header_body a{
+    width: 30%;
+>>>>>>> 07ad850121b957993a370f93288d057cb9322e7f
+}
+
+.header_body img{
+    width: 50%;
+}
+
+.header_bottom ul{
+    display: flex;
+    height: 100%;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.header_bottom{
+    border-top: 1px solid lightgrey;
+    height: 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2%;
+}
+
+.header_bottom a{
+    color: #161616;
+}
+
+.corps{
+    display: flex;
+    height: 15vh;
+    background-color: red;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+.follow{
+    background-color: #E3F5Fe;
+    padding: 1rem;
+    font-family: "RalewayBold", sans-serif;
+    color: #223266;
+}
+
+.container{
+    width: 65%;
+    margin: 0 auto;
+}
+
+.nav{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav_container ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.header_bottom .nav_container a{
+    text-decoration: none;
+    font-family: "Marianne", arial, sans-serif;
+    font-size: 1rem;
+}
+
+.nav:hover{
+    background-color: #e3f5fe;
+}
+
+
+.item{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.item ul{
+    width: 40%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.item img{
+    width: 30px;
+    border-radius: 20%;
+}
+
+footer{
+    background-color: #223267;
+    color: #FFFFFF;
+}
+
+.footer_top{
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+.footer_top h3{
+    font-family: "RalewayBold", sans-serif;
+    font-size: 16px;
+}
+
+.footer_top ul{
+    list-style: none;
+}
+
+.footer_top li{
+    padding-top: 5%;
+}
+
+.footer_top a{
+    text-decoration: underline;
+    color: #FFFFFF;
+
+}
+
+.footer_bot_container{
+    background-color: #1F2D5C;
+}
+
+.footer_bottom{
+    width: 65%;
+    margin: 0 auto;
+}
+
+.footer_bottom a{
+    color: #FFFFFF;
+}
+
+.footer_bottom_text{
+    font-family: "Marianne",arial,sans-serif;
+    font: bold;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.footer_body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_body a img{
+    padding-top: 8%;
+}
+
+.footer_bot ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_bot a{
+    color: #FFFFFF;
+}
+
+.footer_bot{
+    padding-top: 1%;
+    padding-bottom: 3%;
+}
+
+.footer_bottom p{
+    padding-bottom: 2%;
+}
+<<<<<<< HEAD
+
+
+@media only screen and (max-width: 600px) {
+    .footer_bot ul{
+        display: block;
+    }
+
+    .footer_body{
+        display: block;
+    }
+
+    .footer_top{
+        display: block;
+    }
+
+    .item{
+        display: block;
+    }
+
+    .item ul li{
+        padding-left: 30%;
+    }
+
+    .item ul{
+        margin-left: 25%;
+    }
+}
+=======
+>>>>>>> 07ad850121b957993a370f93288d057cb9322e7f

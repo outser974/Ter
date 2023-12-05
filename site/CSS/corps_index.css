@@ -1,0 +1,232 @@
+@font-face {
+    font-family: "RalewayBold";
+    src: url("../Fonts/Raleway/Raleway-Bold.ttf") format("truetype");
+}
+
+<<<<<<< HEAD
+@font-face {
+    font-family: "RalewayExtraBold";
+    src: url("../Fonts/Raleway/Raleway-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url("../Fonts/Raleway/Raleway-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "RalewayExtraBoldItalic";
+    src: url("../Fonts/Raleway/Raleway-ExtraBoldItalic.ttf") format("truetype");
+}
+
+p{
+    font-family: "Raleway", sans-serif;
+}
+
+.description_container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-bottom: 5%;
+    
+}
+
+.body_container{
+    background-color: #F5F5FE;
+
+}
+
+.description_container p {
+    padding-bottom: 1%;
+}
+
+.description{
+    width: 65%;
+    margin: 0 auto;
+}
+
+.description_metier{
+    width: 65%;
+    margin: 0 auto;
+    padding-top: 2%;
+}
+
+.description_metier h2{
+    color: #223266;
+    font-family: "RalewayBold", sans-serif;
+    padding-bottom: 2%;
+}
+
+.tab{
+    padding-left: 4%;
+}
+
+.descrip_cont{
+    width: 100%;
+    color: #fff;
+    background-color: #223266;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.description h1{
+    color: #fff;
+    text-align: center;
+    padding-bottom: 3%;
+=======
+.description_container{
+    display: flex;
+    width: 65%;    
+    margin: 0 auto;
+    padding-bottom: 5%;
+}
+
+.description h1{
+    color: #223266;
+>>>>>>> 07ad850121b957993a370f93288d057cb9322e7f
+}
+
+h1{
+    font-family: "RalewayBold", sans-serif;
+}
+
+.informatique_container{    
+    background-color: #223266;
+}
+
+.informatique_description{
+    width: 65%;    
+    margin: 0 auto;    
+    padding-bottom: 5%;
+    padding-top: 5%;
+    color: #fff;
+}
+
+.enseignement_description{
+    width: 65%;    
+    margin: 0 auto;    
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.enseignement_description h1{    
+    color: #223266;
+}
+
+.comm_et_media_container{
+    background-color: #223266;
+}
+
+.comm_et_media_description{
+    width: 65%;    
+    margin: 0 auto;    
+    margin-bottom: 5%;
+    margin-top: 5%;
+    color: #fff;
+}
+
+.metier_container{
+    display: flex;
+    flex-direction: column;
+<<<<<<< HEAD
+}
+
+body ul li{
+    list-style: none;
+}
+
+.bold{
+    font-family: "RalewayExtraBold", sans-serif;
+}
+
+h3{    
+    font-family: "RalewayExtraBoldItalic", sans-serif;
+    color: #223266;
+    font-size: 1.5rem;
+}
+
+.description_container ul li p{
+    font-size: 17px;
+    color: #3A3A3A ;
+}
+
+h3::after{
+    content: "";
+    display: flex;
+    width: 6%;
+    padding-top: 1%;
+    border-bottom: 2px solid #36B8C2; 
+}
+
+
+.description_container ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.description_container ul li{
+    width: 45%;
+    background-color: #fff;
+    padding: 1%;
+}
+
+.description_container ul li img{
+    width: 100%;
+}
+
+.description_container ul li:nth-child(odd){
+    margin-bottom: 10%;
+    height: 100%;
+    margin-right: 3%;
+}
+
+.description_container ul li:nth-child(even){
+    position: relative;
+    top: 100px;
+    height: 100%;
+}
+
+.description_metier a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.fleche{
+    display: flex;
+    width: 5%;
+    height: 40%;
+    transform: rotate(180deg);
+    margin-left: 95%;
+}
+
+.description_container ul li:hover{
+    /* transition: width 0.3s ease-in-out, box-shadow; */
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0px 6px 5px rgba(0, 0, 0, 0.1);
+    width: 47%;    
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .description_container ul{
+        display: block;
+    }
+
+    .description_container ul li{
+        width: 100%;
+    }
+
+    .description_container ul li:nth-child(odd){
+        height: 100%;
+    }
+    
+    .description_container ul li:nth-child(even){
+        position: relative;
+        margin-bottom: 100%;
+    }
+
+=======
+>>>>>>> 07ad850121b957993a370f93288d057cb9322e7f
+}

@@ -1,0 +1,170 @@
+@font-face {
+    font-family: "RalewayBold";
+    src: url("../Fonts/Raleway/Raleway-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "RalewayExtraBoldItalic";
+    src: url("../Fonts/Raleway/Raleway-ExtraBoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url("../Fonts/Raleway/Raleway-SemiBold.ttf") format("truetype");
+}
+
+/* 
+gris: #666666 
+autres gris: #3A3A3A
+bleu: #223266 
+background gris: #F5F5FE
+bleu lagon: #36B8C2
+bleu/vert: #C2EBEE
+*/
+
+h1{
+    font-family: "RalewayBold", sans-serif;
+}
+
+.title{
+    width: 65%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    color: #223266;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.copilot{
+    color: #fff;
+    background-color: #223266;
+    padding: 1%;
+    /* border-radius: 0 0 5% 5%; */
+}
+
+.copilot_head{        
+    width: 65%;
+    margin: 0 auto;
+}
+
+.in_body{    
+    font-family: "RalewayExtraBoldItalic", sans-serif;
+    color: #223266;
+}
+
+h2{
+    font-family: "RalewayBold", sans-serif;
+    font-size: 2rem;
+    color: #223266;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.in_body::after{
+    content: "";
+    display: flex;
+    width: 3%;
+    padding-top: 1%;
+    border-bottom: 2px solid #36B8C2; 
+}
+
+.copilot ul{
+    padding-left: 10%;
+}
+
+.copilot_head a{
+    color: #fff;
+}
+
+.fonctionnement{
+    padding-bottom: 3%;
+}
+
+.fonctionnement p{
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+.fonctionnement h2{
+    text-align: center;
+}
+
+.detail{
+    width: 65%;
+    margin: 0 auto;
+    padding-top: 1%;
+}
+
+.detail img{
+    width: 50%;
+}
+
+img{
+    padding: 1%;
+}
+
+.exemple{    
+    background-color: #F5F5FE;
+}
+
+.exemple p{
+    font-family: "Raleway", sans-serif;
+    padding-top: 1%;
+}
+
+.exemple ul li{
+    font-family: "Raleway", sans-serif;
+}
+
+.gris{
+    color: #3A3A3A ;
+    font-family: "Raleway", sans-serif;
+    padding: 1%;
+}
+
+.fleche{
+    width: 1%;
+    height: 1%;
+    transform: rotate(180deg);
+}
+
+.bleu{
+    color: #223266;
+}
+
+.git_copilot{
+    width: 100%;
+    height: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.intro{
+    width: 65%;
+    margin: 0 auto;    
+    font-family: "Raleway", sans-serif;
+    padding-bottom: 2%;
+}
+
+
+.copilot_query{
+    border-radius: 5%;
+}
+
+.source{
+    padding-left: 2%;
+    padding-bottom: 3%;
+}
+
+.img_container{
+    display: flex;
+    justify-content: center;
+}
+
+.deeple{
+    width: 100%;
+}
+
+.tab{
+    padding-left: 3%;
+}
